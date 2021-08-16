@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Movei To Shopping Card</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="ten columns">
+                    <a href="https://www.netflix.com//" >
+                        <img src="img/logo.png" style="width: 25px; height: 50px;" id="logo">
+                    </a>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.svg" style="width: 50px; height: 70px;" id="img-cart">
+                            <div id="shopping-cart">
+                                <table id="cart-content" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>image</th>
+                                            <th>topic</th>
+                                            <th>price</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+
+                                <a href="#" id="clear-cart" class="button u-full-width">clear all</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="tweleve columns">
+                    <div class="hero-content">
+                        <h2>You Can Download Your Faivorite Movies Here</h2>
+                        <p>SPECIAL SALE FOR ALL THE MOVIES</p>
+                        <form action="#" id="search" method="post" class="form">
+                            <input class="u-full-width" type="text" placeholder="What do you want to get ?"
+                                id="search-course">
+                            <input type="submit" id="submit-search-course" class="submit-search-course">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-bar">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icon icon1">
+                    <p>  some of the moveis are free  <br>
+                         watch and enjoy   </p>
+                </div>
+                <div class="four columns icon icon2">
+                    <p> any subtitle <br>
+                        with deferent experience   </p>
+                </div>
+                <div class="four columns icon icon3">
+                    <p>   accasable anytime anywhere   <br>
+                     just after pay for it</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="courses-list" class="container">
+        <h1 id="heading" class="heading">NETFLIX</h1>
+        <div class="row">
+            <div class="six columns">
+                <div class="card">
+                    <a href="https://google.com">
+                        <img src="img/wonder-woman.jpg" class="course-image u-full-width">
+                    </a>
+                    <div class="info-card">
+                        <h4>WONDER WOMAN</h4>
+
+                        <p>Director : Patty Jenkins</p>
+                        <img src="img/stars.png">
+                        <p class="price">190/000 $ <span class="u-pull-right ">95/000 $</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="1"> Add To Shopping Card
+                            </a>
+                    </div>
+                </div>
+                <!--.card--> 
+            </div>
+            <div class="six columns">
+                <div class="card">
+                    <a href="https://google.com/">
+                        <img src="img/fast and furios.jpg" class="course-image u-full-width">
+                    </a>
+                    <div class="info-card">
+                        <h4> FAST & FURIOS</h4>
+                        <p>Director : Justin Lin  </p>
+                        <img src="img/stars.png">
+                        <p class="price">100/000 $ <span class="u-pull-right">45/000 $</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="2"> Add To Shopping Card
+                            </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="six columns">
+                <div class="card">
+                    <a href="https://google.com">
+                        <img src="img/peaky-blinders.jpg" class="course-image u-full-width">
+                    </a>
+                    <div class="info-card">
+                        <h4>PEAKY BLINDERS</h4>
+                        <p>Directors : Tim Mielants / David Caffrey</p>
+                        <img src="img/stars.png">
+                        <p class="price">90/000 $ <span class="u-pull-right ">65/000 $</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="4"> Add To Shopping Card
+                            </a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+            <div class="six columns">
+                <div class="card">
+                    <a href="https://google.com">
+                        <img src="img/extraction.jpeg" class="course-image u-full-width">
+                    </a>
+                    <div class="info-card">
+                        <h4>EXTRACTION </h4>
+                        <p> Director : Sam Hargrave </p>
+                        <img src="img/stars.png">
+                        <p class="price">70/000 $ <span class="u-pull-right ">40/000 $</span></p>
+                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="5"> Add To Shopping Card
+                    </a>
+                    </div>
+                </div>
+                <!--.card-->
+            </div>
+        </div>
+    </div>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="six columns">
+                        <nav id="primary" class="menu">
+                            <a class="link" href="#">movies</a>
+                            <a class="link" href="#">action moveis</a>
+                            <a class="link" href="#">how to donliad</a>
+                        </nav>
+                    </div>
+                    <div class="six columns">
+                        <nav id="secondary" class="menu">
+                            <a class="link" href="#">about us</a>
+                            <a class="link" href="#">work with us</a>
+                            <a class="link" href="#">our site</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/app.js"></script>
+
+</body>
+
+</html>
